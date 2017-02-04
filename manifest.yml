@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: personality-insights
+  host: fcarbo
+  disk_quota: 1024M
+  services:
+  - personality-insights-personality_insights
